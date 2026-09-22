@@ -1,0 +1,8 @@
+services:
+  web:
+    build: .
+    image: shihtzu-care-kochi
+    container_name: shihtzu-care-kochi
+    ports:
+      - "8080:80"
+    restart: unless-stopped
