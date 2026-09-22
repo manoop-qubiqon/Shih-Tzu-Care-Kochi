@@ -1,8 +1,0 @@
-Dockerfile
-.dockerignore
-README.md
-*.md
-.git
-.gitignore
-.DS_Store
-node_modules
